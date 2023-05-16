@@ -6,3 +6,5 @@ TEST
 
 
     GoTo               www.google.com
+    ClickText          Test
+    
