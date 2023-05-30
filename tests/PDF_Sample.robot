@@ -51,11 +51,13 @@ Read PDF Text
     # When dowloading a large file there should be a waiting mechanism
     UsePdf                  ${downloads_folder}/${pdf_file}.pdf
 
+
     # Read file contents to a variable and find an address
     ${file_content}         GetPdfText
     ${find_position}        Evaluate    $file_content.find("${text_in_file}")
     ${onsight_address}      Evaluate    $file_content[$find_position:$find_position+77].lstrip("${text_in_file}; ")
     Log                     ${onsight_address}    console=true
-    
+    Log To Console           ${onsight_address} 
+
     CloseWindow
     SwitchWindow            1
