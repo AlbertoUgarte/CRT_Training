@@ -55,7 +55,7 @@ Read PDF Text
     ${file_content}         GetPdfText
     ${find_position}        Evaluate    $file_content.find("${text_in_file}")
     ${onsight_address}      Evaluate    $file_content[$find_position:$find_position+77].lstrip("${text_in_file}; ")
-    Log                     ${onsight_address}    #console=true
+    Log                     ${onsight_address}    level=info #console=true
     
     CloseWindow
     SwitchWindow            1
