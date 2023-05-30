@@ -22,9 +22,7 @@ Read PDF Text
     # and that needs to be taken into account
     IF    "${EXECDIR}" == "/home/executor/execution"    # normal test run environment
         ${test_suite}=          Evaluate    "${SUITE NAME}".lower().split(".")[0]
-        #${reference_folder}=    Set Variable    ${EXECDIR}/${test_suite}/resources/images
-        #${reference_folder}=    Set Variable    /home/executor/execution/${test_suite}/resources/images
-        ${reference_folder}=    Set Variable    /home/executor/execution/crt_training/resources/images
+        ${reference_folder}=    Set Variable    ${EXECDIR}/${test_suite}/resources/images
         ${downloads_folder}=    Set Variable    /home/executor/Downloads
     ELSE    # Live Testing environment
         ${reference_folder}=    Set Variable    ${EXECDIR}/../resources/images
