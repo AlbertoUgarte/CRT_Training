@@ -8,7 +8,6 @@ Suite Teardown              End Suite
 Read PDF Text
     [Documentation]         Read values from a pdf file.
     AppState                Home
-
     VerifyText              Open data for vehicles
     ClickText               Open data for vehicles
     ScrollText              Open data for vehicles contains registration, approval and technical information
