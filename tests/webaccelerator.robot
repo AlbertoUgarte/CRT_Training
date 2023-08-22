@@ -4,17 +4,16 @@
 
 Documentation           Test suite for CRT starter.
 Library                 QWeb
-Library                 SeleniumLibrary
 
 Suite Setup             Open Browser    about:blank    chrome
 Suite Teardown          Close All Browsers
 
-# Tip: The Settings section is where you define test suite level configuration.
+# Tip: The Settings dsection is where you define test suite level configuration.
 #      Suite Setup and Teardown are actions that happen before and after a test suite run.
 #      For first time users, we don't recommend to change them.
 #      You may change chrome to firefox should you wish to test your application on Firefox.
 
-*** Test Cases ***
+*** Test Cases *** 
 
 # Tip: Test cases start from here. The structure of a test case is as follows:
 #      Name of the test
@@ -28,6 +27,7 @@ Test the home page
     [Documentation]     Go to the web shop, and verify that the slogan text appears on the page.
     GoTo                https://qentinelqi.github.io/shop/
     VerifyText          Find your spirit animal
+    
 
 Check the navigation menu items
     [Documentation]     Go to the shop homepage and verify the menu items.
