@@ -1,7 +1,7 @@
 #
 # QEditor test suite configuration
 #
-name: Copado Robotic Testing configuration
+name: QEditor / Copado Robotic Testing configuration
 description: Configuration for Copado Robotic Testing integration
 version: 0.0.1
 
