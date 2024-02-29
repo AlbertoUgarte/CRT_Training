@@ -59,3 +59,4 @@ Read PDF Text
 
     CloseWindow
     SwitchWindow            1
+    ClickElement
