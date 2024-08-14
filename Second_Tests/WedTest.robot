@@ -83,4 +83,4 @@ Home
 #     [Documentation]     Go to the web shop, and verify that the slogan text appears on the page.
 #     GoTo                https://corporate.brenntag.com/en/sustainability/
 
-#     ClickText           Sustainability
+#     ClickText           Sustainability.  
