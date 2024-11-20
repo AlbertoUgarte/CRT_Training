@@ -6,7 +6,7 @@ Suite Teardown             End suite
 *** Test Cases ***
 Entering A Lead
     [tags]                 Lead
-    Login
+    Home
     ClickText              Details
     VerifyElementText    //records-record-layout-item[@field-label\="Case Owner"]   Alberto Cazares
     VerifyElementText      Case Number       00001029    anchor=Feed
